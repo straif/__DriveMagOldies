@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html ng-app="DriveMagOldies">
+
+	<head>
+		<title>DriveMag | Cars, Boats, Motorcycles, Collection Cars</title>
+		<meta charset="UTF-8" />
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+		<meta content="Last Gear Publishing & Associates ;)" name="author">
+		<meta content="Oldies are goldies! If it moved or still moves, it&#039;s here!" name="description">
+
+		<link rel="stylesheet" href="css/vendor/flexslider.css" type="text/css">
+		<!--
+		<link rel="stylesheet" href="https://cdn.drivemag.net/css/styles.min.css?version=1488903120" type="text/css" />
+		<link rel="stylesheet" href="https://cdn.drivemag.net/css/main.min.css?version=1488903120" type="text/css" />
+		<link rel="stylesheet" href="https://cdn.drivemag.net/css/stylesheet-cars.min.css?version=1488903120" type="text/css" />
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
+		-->
+	</head>
+
+	<body>
+		<header>
+			<div class="overflow-hidden">
+				<div class="right" id="logo">
+					<a href="/ww/main">
+					<div class="inline-block vertical-middle" id="site-logo">
+						<img title="DriveMag" alt="DriveMag" src="images/logo-boats.png">
+					</div> </a>
+				</div>
+				<div class="right">
+					<ul id="header-search-label">
+						<li id="header-search-button"></li>
+					</ul>
+				</div>
+				<div class="inline-block" id="header-stacks">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<div id="header-search-input">
+					<form method="get" action="/ww/search-results">
+						<input type="search" placeholder="Dig for Goldies..." name="searchText">
+						<input type="submit" value="" />
+					</form>
+				</div>
+				<div id="main-menu">
+					<ul id="main-nav" class="">
+						<li id="main-nav-home">
+							<a href="/ww/main"> <span>Home</span> </a>
+						</li>
+						<li id="main-nav-news">
+							<a href="/ww/news"> <span>News</span> </a>
+						</li>
+						<li id="main-nav-car-specs">
+							<a href="/ww/brands"> <span>Car
+								<br/>
+								Specs</span> </a>
+						</li>
+						<li id="main-nav-buyingguide">
+							<a href="/ww/buying-guide"> <span>Buying
+								<br/>
+								Guide</span> </a>
+						</li>
+						<li id="main-nav-carfile">
+							<a href="/ww/car-files"> <span>Car files</span> </a>
+						</li>
+						<li id="main-nav-testdrive">
+							<a href="/ww/testdrives"> <span>Test
+								<br/>
+								Drives</span> </a>
+						</li>
+						<li id="main-nav-geneva-2017">
+							<a href="https://drivemag.com/ww/tags/geneva-2017?order=date_created"> <span>Geneva
+								<br/>
+								2017</span> </a>
+						</li>
+						<li id="main-nav-boats">
+							<a href="https://boats.drivemag.com"> <span>Boats</span> </a>
+						</li>
+						<li id="main-nav-riders">
+							<a href="https://riders.drivemag.com"> <span>Riders</span> </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<div id="main-slider">
+			<div class="logo-large-fade"></div>
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+						<img src="images/renault-landaulet.jpg" />
+						<div class="caption">
+							Sub umbra allarum Aquilae Optimae
+						</div>
+					</li>
+					<li>
+						<img src="images/treasure-roger-baillon.jpg" />
+						<div class="caption">
+							Sub umbra allarum Aquilae Optimae
+						</div>
+					</li>
+					<li>
+						<img src="images/vintage-car-1.jpg" />
+						<div class="caption">
+							Sub umbra allarum Aquilae Optimae
+						</div>
+					</li>
+					<li>
+						<img src="images/vintage-car-2.jpg" />
+						<div class="caption">
+							Sub umbra allarum Aquilae Optimae
+						</div>
+					</li>
+					<li>
+						<img src="images/vintage-car-3.jpg" />
+						<div class="caption">
+							Sub umbra allarum Aquilae Optimae
+						</div>
+					</li>
+					<li>
+						<img src="images/vintage-car-4.jpg" />
+						<div class="caption">
+							Sub umbra allarum Aquilae Optimae
+						</div>
+					</li>
+					<li>
+						<img src="images/vintage-car-5.jpg" />
+						<div class="caption">
+							Sub umbra allarum Aquilae Optimae
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div ng-view>
+			=======================================
+		</div>
+
+		<footer>
+			<div class="footer-ghost"></div>
+			<div class="footer-menu">
+				<div class="container">
+					<div class="pad vertical-middle inline-block">
+						<a href="/ww/contact">Give us a tip</a>
+					</div>
+					|
+					<div class="pad vertical-middle inline-block">
+						<a href="/ww/terms-of-service">Terms of service</a>
+					</div>
+					|
+					<div class="pad vertical-middle inline-block">
+						<a href="/ww/privacy-policy">Privacy Policy</a>
+					</div>
+					|
+					<div class="pad vertical-middle inline-block">
+						<a href="/ww/about-us">About us</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-section">
+				<div class="container">
+					<div class="col-sm-6">
+						<p>
+							Our Company
+						</p>
+						<ul>
+							<li class="inline-block vertical-middle">
+								<a href="http://lastgear.com"> <img width="120" class="img-responsive pad" title="Last Gear" alt="Last Gear" src="https://cdn.drivemag.net/images/ourcompany-lastgear.svg"> </a>
+							</li>
+							<li class="inline-block vertical-middle">
+								<a href="http://alldelicious.com"> <img width="120" class="img-responsive pad" title="All Delicious" alt="All Delicious" src="https://cdn.drivemag.net/images/ourcompany-alldelicious.svg"> </a>
+							</li>
+						</ul>
+						<br>
+					</div>
+					<div class="col-sm-6">
+						<p>
+							&copy; Last Gear Publishing
+						</p>
+						<div>
+							<a href="/ww/contact"> <img width="60" class="img-responsive centered" title="Contact" alt="Contact" src="https://cdn.drivemag.net/images/menu-icon-contact.svg"> </a>
+						</div>
+						<br>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--
+		<script type="text/javascript" src="https://cdn.drivemag.net/jqeury/jquery.min.js?version=1488903120"></script>
+		<script type="text/javascript" src="https://cdn.drivemag.net/js/main.min.js?version=1488903120" defer></script>
+		<script src="https://cdn.drivemag.net/bundles/fosjsrouting/js/router.js"></script>
+		<script src="/js/routing?callback=fos.Router.setData"></script>
+		-->
+		<script src="js/vendor/jquery-3.2.0.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="js/vendor/jquery.flexslider.js"></script>
+		<script src="js/vendor/jquery.flexslider-min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(window).load(function() {
+				$('.flexslider').flexslider();
+			});
+		</script>
+		<script src="js/vendor/angular.min.js"></script>
+		<script src="js/vendor/angular-route.min.js"></script>
+		
+		<script src="app.js"></script>
+	</body>
+
+</html>
