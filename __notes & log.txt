@@ -1,0 +1,3 @@
+> added 2 helper <hr> to visually mark the separation between [(header+flexslider)/ngView/footer]
+>! first css level is an edited Bootstrap source code file
+
