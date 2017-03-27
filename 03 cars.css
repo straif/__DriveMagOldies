@@ -3,7 +3,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='lighten($clr-rad,  5%)',  endColorstr='darken($clr-rad,  25%)',  GradientType=1 );
 }
 br, section {
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 .center, caption, td, th {
     text-align: center;
