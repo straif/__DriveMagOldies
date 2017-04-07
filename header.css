@@ -1,0 +1,416 @@
+#all-brands, #brand-icons, #fun-nav li, #main-banner, #main-banner #main-banner-forms, #main-section, .all-blocks>div, .block-card, .block-square, .overflow-hidden, .tabs-h-panel, header, header * {
+    overflow: hidden;
+}
+.right {
+    float: right;
+}
+#logo, #wrap {
+    position: relative;
+}
+#gotop, #logo, #site-logo, #site-title {
+    padding: .25em;
+}
+#logo {
+    display: inline-block;
+}
+.inline-block {
+    display: inline-block;
+}
+#header-stacks {
+    border: 2px solid transparent;
+    height: auto;
+    width: 2.1em;
+    transition: .3s all ease;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0;
+    margin: 1em;
+    display: none;
+}
+#header-stacks>div {
+    background-color: #008594;
+    margin: .32em auto;
+    height: .18em;
+    width: 1.5em;
+    display: block;
+}
+#gotop:hover, #header-stacks:focus>div, #header-stacks:hover>div {
+    background-color: #009cae;
+}
+#header-search-label #header-search-button, #header-stacks {
+    display: block;
+}
+#header-stacks {
+    display: block;
+}
+@media only screen and (min-width:1025px) {
+    #fun-menu, #header-stacks, #main-nav li, #main-nav li a {
+    display: block;
+}
+#header-search-label #header-search-button, #header-stacks {
+    display: none;
+}
+
+#header-search-input form input[type=submit], #header-search-label #header-search-button {
+    width: 48px;
+    height: 48px;
+    margin: 6px 6px 0;
+    background-size: cover;
+    background-image: url(../images/icons/menu-icon-search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#header-search-input {
+    position: relative;
+    display: block;
+    padding: 0 .5em 1em;
+    width: 35%;
+    width: calc(75vw - 800px);
+    min-width: 320px;
+}
+#header-search-input form input {
+    background-color: transparent!important;
+    vertical-align: middle;
+    float: none!important;
+}
+#header-search-input form input[type=search] {
+    border-color: #A8B9BD;
+    color: #f1f3f3;
+    width: calc(100% - 80px);
+    display: inline-block;
+}
+#header-search-input form input[type=submit] {
+    display: inline-block;
+}
+#header-search-input {
+    width: calc(100vw - 0px);
+    min-width: 320px;
+    position: relative;
+    top: 0;
+    right: 0;
+    display: none;
+}
+#header-search-input form input[type=search] {
+    display: block!important;
+    width: 100%}
+#header-search-input form input[type=submit] {
+    display: none!important;
+}
+#header-search-input {
+    width: calc(95vw - 200px);
+    min-width: 320px;
+    position: absolute;
+    top: 0;
+    right: 160px;
+    display: block;
+}
+#header-search-input form input[type=search] {
+    width: calc(100% - 80px);
+    display: inline-block!important;
+}
+#header-search-input form input[type=submit] {
+    display: inline-block!important;
+}
+#header-search-input {
+    width: calc(60vw - 800px);
+    min-width: 360px;
+    position: absolute;
+    top: 0;
+    right: 180px;
+    display: block;
+}
+#header-search-input form input[type=search] {
+    width: calc(100% - 80px);
+    display: inline-block!important;
+}
+#header-search-input form input[type=submit] {
+    display: inline-block!important;
+}
+#header-search-input {
+    width: calc(60vw - 800px);
+    min-width: 360px;
+    position: absolute;
+    top: 0;
+    right: 180px;
+    display: block;
+}
+#header-search-input form input[type=search] {
+    width: calc(100% - 80px);
+    display: inline-block!important;
+}
+#header-search-input form input[type=submit] {
+    display: inline-block!important;
+}
+#fun-nav li#fun-nav-home, #main-nav li#main-nav-home {
+    background-image: url(../images/icons/menu-icon-home.svg);
+}
+#fun-nav li#fun-nav-news, #main-nav li#main-nav-news {
+    background-image: url(../images/icons/menu-icon-news.svg);
+}
+#fun-nav li#fun-nav-buyingguide, #main-nav li#main-nav-buyingguide {
+    background-image: url(../images/icons/menu-icon-buyingguide.svg);
+}
+#fun-nav li#fun-nav-carfile, #main-nav li#main-nav-carfile {
+    background-image: url(../images/icons/menu-icon-carfile.svg);
+}
+#fun-nav li#fun-nav-catalog, #main-nav li#main-nav-catalog {
+    background-image: url(../images/icons/menu-icon-catalog.svg);
+}
+#fun-nav li#fun-nav-car-specs, #main-nav li#main-nav-car-specs {
+    background-image: url(../images/icons/menu-icon-car-specs.svg);
+}
+#fun-nav li#fun-nav-testdrive, #main-nav li#main-nav-testdrive {
+    background-image: url(../images/icons/menu-icon-testdrive.svg);
+}
+#fun-nav li#fun-nav-boats, #main-nav li#main-nav-boats {
+    background-image: url(../images/icons/menu-icon-boats.svg);
+}
+#fun-nav li#fun-nav-riders, #main-nav li#main-nav-riders {
+    background-image: url(../images/icons/menu-icon-riders.svg);
+}
+#fun-nav li#fun-nav-cars, #main-nav li#main-nav-cars {
+    background-image: url(../images/icons/menu-icon-cars.svg);
+}
+#fun-nav li#fun-nav-stories, #main-nav li#main-nav-stories {
+    background-image: url(../images/icons/menu-icon-stories.svg);
+}
+#fun-nav li#fun-nav-how-to, #main-nav li#main-nav-how-to {
+    background-image: url(../images/icons/menu-icon-how-to.svg);
+}
+#fun-nav li#fun-nav-video, #main-nav li#main-nav-video {
+    background-image: url(../images/icons/menu-icon-video.svg);
+}
+#fun-nav li#fun-nav-lifestyle, #main-nav li#main-nav-lifestyle {
+    background-image: url(../images/icons/menu-icon-lifestyle.svg);
+}
+#fun-nav li#fun-nav-joyride, #main-nav li#main-nav-joyride {
+    background-image: url(../images/icons/menu-icon-joyride.svg);
+}
+#fun-nav li, #main-nav li {
+    float: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#fun-nav li a, #header-search-label #header-search-button a, #main-nav li a {
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+#gotop, #main-nav.nav-toggle, .nav-toggle {
+    display: none;
+}
+#fun-nav li:hover a, #main-nav li:hover a {
+    background-color: rgba(11, 19, 20, .6);
+    opacity: 1;
+}
+#main-nav {
+    z-index: 99;
+    text-align: center;
+}
+#main-nav li {
+    width: 48px;
+    height: 48px;
+    margin: 6px;
+    vertical-align: top;
+}
+#main-nav li a {
+    display: block;
+    font-size: .7em;
+    line-height: 48px;
+    letter-spacing: 0;
+    color: #f1f3f3;
+    padding: 0;
+    background-color: rgba(11, 19, 20, 0);
+    opacity: 0;
+    border-radius: 6px;
+}
+#main-nav li:hover a {
+    color: #f1f3f3;
+}
+#main-nav li#main-nav-paris-2016 {
+    background-image: url(../images/icons/menu-icon-paris-2016.svg);
+}
+#main-nav li#main-nav-geneva-2017 {
+    background-image: url(../images/icons/menu-icon-geneva-2017.svg);
+}
+#main-nav li#main-nav-buyingguide a, #main-nav li#main-nav-car-specs a, #main-nav li#main-nav-geneva-2017 a, #main-nav li#main-nav-paris-2016 a, #main-nav li#main-nav-testdrive a {
+    padding: 12px 0 16px;
+    line-height: 12px;
+}
+@media only screen and (min-width:320px) {
+    #fun-menu, #main-nav {
+    display: none;
+}
+#header-title {
+    font-size: 2.4em;
+}
+#header-slogan {
+    font-size: 0;
+}
+.sticky, .sticky:hover {
+    background-color: #0b1314;
+}
+#main-nav li a, #main-nav li:hover a {
+    background-color: rgba(11, 19, 20, .8);
+    opacity: 1;
+}
+#site-logo img {
+    width: 160px;
+    height: 40px;
+}
+
+#main-nav li {
+    display: inline-block;
+    float: none;
+    width: 90px;
+    height: 90px;
+    margin: 0;
+}
+#main-nav li a {
+    display: block;
+    text-align: center;
+    font-size: .9em;
+    line-height: 90px;
+    font-weight: 400;
+    padding: 0;
+}
+#main-nav li:hover a {
+    border-color: #5f6a6d;
+}
+#main-nav li#main-nav-buyingguide a, #main-nav li#main-nav-car-specs a, #main-nav li#main-nav-geneva-2017 a, #main-nav li#main-nav-paris-2016 a, #main-nav li#main-nav-testdrive a {
+    padding: 24px 0;
+    line-height: 24px;
+}
+#header-search-label #header-search-button, #main-nav {
+    display: none;
+}
+#main-nav li {
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin: 6px;
+}
+#main-nav li a {
+    text-align: center;
+    font-size: .65em;
+    line-height: 48px;
+    font-weight: 300;
+    background-color: rgba(11, 19, 20, .5);
+    padding: 0;
+    opacity: 1;
+}
+#main-nav li:hover a {
+    border-color: #5f6a6d;
+    background-color: rgba(11, 19, 20, .2);
+    opacity: 1;
+}
+#main-nav li#main-nav-buyingguide a, #main-nav li#main-nav-car-specs a, #main-nav li#main-nav-geneva-2017 a, #main-nav li#main-nav-paris-2016 a, #main-nav li#main-nav-testdrive a {
+    padding: 12px 0 16px;
+    line-height: 12px;
+}
+#main-nav {
+    display: inline-block;
+}
+#main-nav li {
+    display: block;
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin: 6px;
+}
+#main-nav li a {
+    display: block;
+    text-align: center;
+    font-size: .65em;
+    line-height: 48px;
+    font-weight: 300;
+    background-color: rgba(11, 19, 20, .5);
+    padding: 0;
+    opacity: 1;
+}
+#main-nav li:hover a {
+    border-color: #5f6a6d;
+    background-color: rgba(11, 19, 20, .2);
+    opacity: 1;
+}
+#main-nav li#main-nav-buyingguide a, #main-nav li#main-nav-car-specs a, #main-nav li#main-nav-geneva-2017 a, #main-nav li#main-nav-paris-2016 a, #main-nav li#main-nav-testdrive a {
+    padding: 12px 0 16px;
+    line-height: 12px;
+}
+@media only screen and (min-width:768px) {
+    #fun-menu, #header-search-label #header-search-button, #main-nav {
+    display: none;
+}
+#header-title {
+    font-size: 2.8em;
+}
+#header-slogan {
+    font-size: 1em;
+}
+.sticky, .sticky:hover {
+    background-color: #0b1314;
+}
+#main-nav li a, #main-nav li:hover a {
+    background-color: rgba(11, 19, 20, .6);
+    opacity: 1;
+}
+#site-logo img {
+    width: 160px;
+    height: 40px;
+}
+
+#main-nav li {
+    display: inline-block;
+    float: none;
+    width: 72px;
+    height: 72px;
+    margin: 0;
+}
+#main-nav li a {
+    display: block;
+    text-align: center;
+    font-size: .8em;
+    line-height: 72px;
+    font-weight: 400;
+    padding: 0;
+}
+#main-nav li:hover a {
+    border-color: #5f6a6d;
+}
+#main-nav li#main-nav-buyingguide a, #main-nav li#main-nav-car-specs a, #main-nav li#main-nav-geneva-2017 a, #main-nav li#main-nav-paris-2016 a, #main-nav li#main-nav-testdrive a {
+    padding: 20px 0;
+    line-height: 18px;
+}
+#header-search-label #header-search-button {
+    cursor: pointer;
+}
+#header-search-label #header-search-button a {
+    display: block;
+    font-size: .7em;
+    line-height: 48px;
+    letter-spacing: 0;
+    padding: 0;
+    border-top: 0 solid transparent;
+    background-color: transparent;
+    opacity: 0;
+    width: 100%;
+    height: 100%}
+#header-search-label #header-search-button:hover a {
+    border-color: #5f6a6d;
+    background-color: rgba(11, 19, 20, .6);
+    opacity: 1;
+}
+#header-title {
+    font-size: 4.2em;
+}
+#header-slogan {
+    font-size: 1.35em;
+}
+@media only screen and (min-width:1200px) {
+    #header-title {
+    font-size: 4.2em;
+}
+#header-slogan {
+    font-size: 1.35em;
+}

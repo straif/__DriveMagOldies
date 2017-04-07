@@ -1,51 +1,7 @@
-@charset "UTF-8";
-    .gradient-rad-grey, .gradient-rad-main {
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='lighten($clr-rad,  5%)',  endColorstr='darken($clr-rad,  25%)',  GradientType=1 );
-}
-br, section {
-    margin-bottom: 0px;
-}
-.center, caption, td, th {
-    text-align: center;
-}
 #all-brands, #brand-icons, #fun-nav li, #main-banner, #main-banner #main-banner-forms, #main-section, .all-blocks>div, .block-card, .block-square, .overflow-hidden, .tabs-h-panel, header, header * {
     overflow: hidden;
 }
-#video-home-banner, .fadein {
-    animation: fadein 1s;
-}
-@font-face {
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 100;
-    src: local('Roboto Slab Thin'), local('RobotoSlab-Thin'), url(https://fonts.gstatic.com/s/robotoslab/v6/MEz38VLIFL-t46JUtkIEgH4UHu-c0cTZKOwO_f6u1Os.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 300;
-    src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url(https://fonts.gstatic.com/s/robotoslab/v6/dazS1PrQQuCxC3iOAJFEJbfB31yxOzP-czbf6AAKCVo.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(https://fonts.gstatic.com/s/robotoslab/v6/y7lebkjgREBJK96VQi37Zp0EAVxt0G0biEntp43Qt6E.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url(https://fonts.gstatic.com/s/robotoslab/v6/dazS1PrQQuCxC3iOAJFEJZ_TkvowlIOtbR7ePgFOpF4.ttf) format('truetype');
-}
-.gradient-rad-main {
-    background: #009cae;
-    background: radial-gradient(ellipse at center, #009cae 0, #008594 35%, #006570 60%, #00454d 85%, #001215 100%);
-}
-.gradient-rad-grey {
-    background: #b7c5c8;
-    background: radial-gradient(ellipse at center, #b7c5c8 0, #A8B9BD 35%, #94a9ae 60%, #7f989e 85%, #637d83 100%);
-}
+
 a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
     margin: 0;
     padding: 0;
@@ -8924,61 +8880,32 @@ input[type=button] {
     color: #f1f3f3;
     pointer-events: none;
 }
-.date-new, .date-new :not(input) {
-    background-color: #eef9ee;
-    border-color: #65c763;
+#drequ {
+    background-color: aquamarine;
 }
-.date-old, .date-old :not(input) {
-    background-color: #fcf5f3;
-    border-color: #de8569;
+
+/********************************************************** let's give it a try *****************************************************************/
+
+#brand-icons li a {
+    display: block;
+    height: 100%;
 }
-#browse-dialog {
-    background-color: #fff;
-    border: 2px solid #A8B9BD;
-    padding: 1em 1em 0;
-    overflow: auto;
-    box-shadow: 0 0 0 10000px rgba(11, 19, 20, .5);
+#brand-icons li {
+    float: left;
+    width: calc(100% / 4);
+    background-position: center;
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
 }
-#browse-dialog .articles {
-    font-size: 1.1em;
-    overflow: auto;
-    max-height: 280px;
-    background-color: #f1f3f3;
+#brand-icons li#car-brand-audi {
+    background-image: url('../images/icons/brand-icon-audi.svg');
 }
-#browse-dialog .articles li {
-    border: 1px solid #c5d0d3;
-    overflow: hidden;
-    padding: .25em .5em;
-    font-size: .8em;
-    margin: .25em 1em .25em 0;
+#brand-icons li#car-brand-audi.brand-active, #brand-icons li#car-brand-audi:hover {
+    background-image: url('../images/icons/brand-icon-audi-solid.svg');
 }
-#browse-dialog .articles li:focus, #browse-dialog .articles li:hover {
-    border-color: #A8B9BD;
-    background-color: #fff;
-    border-left-width: 4px;
+#brand-icons li#car-brand-bmw {
+    background-image: url(brand-icon-bmw.svg);
 }
-#browse-dialog .articles li input[type=button] {
-    padding: 0;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    line-height: 10px;
-    font-weight: 400;
-}
-.dialog-close-button {
-    border-radius: 50%;
-    background-color: rgba(11, 19, 20, .8);
-    border: 2px solid #f1f3f3;
-    color: #f1f3f3;
-    padding: .25em;
-    width: 32px;
-    height: 32px;
-    line-height: 16px;
-    text-align: center;
-    opacity: .6;
-    font-weight: 400;
-    float: right;
-}
-.dialog-close-button:hover {
-    opacity: 1;
+#brand-icons li#car-brand-bmw.brand-active, #brand-icons li#car-brand-bmw:hover {
+    background-image: url(brand-icon-bmw-solid.svg);
 }
