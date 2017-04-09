@@ -1,4 +1,5 @@
-#all-brands, #brand-icons, #fun-nav li, #main-banner, #main-banner #main-banner-forms, #main-section, .all-blocks>div, .block-card, .block-square, .overflow-hidden, .tabs-h-panel, header, header * {
+
+#fun-nav li, #main-banner, #main-banner #main-banner-forms, #main-section, .all-blocks>div, .block-card, .block-square, .overflow-hidden, .tabs-h-panel, header, header * {
     overflow: hidden;
 }
 .right {
