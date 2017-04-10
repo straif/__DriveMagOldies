@@ -13,18 +13,13 @@
                 controller: 'MainController'
             })
             //todo w. route params --- see comments down!!! ===============================
-            .when('/ww/brand-01/current-model-01', {
-                templateUrl: './templates/brands/brand-01/current-model-01.html',
+            .when('/ww/brand-audi/current-model-audi', {
+                templateUrl: './templates/brands/brand-audi/current-model-audi.html',
                 controller: 'MainController'
             })
-            .when('/ww/brand-01/current-model-02', {
-                templateUrl: './templates/brands/brand-01/current-model-02.html',
-                controller: 'MainController'
-            })
-            .when('/ww/brand-01/current-model-03', {
-                templateUrl: './templates/brands/brand-01/current-model-03.html',
-                controller: 'MainController'
-            })
+            
+            
+            
             // ...
             //until route params, same for brand-02 ... 07 ================================
             //=============================================================================

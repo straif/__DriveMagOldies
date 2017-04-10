@@ -3,5 +3,11 @@
 
 
 TODO:
-- left col - why do the brand icons not appear? the css files are all included!
+- the big logo verbessern
+- flex-slider: isolate the cars from their backgrounds + adaptare imagine/text explicativ dreapta
+- left col icons - make a set of collection car icons & put it on
+- implement Search by car under logos ... click AUDI ---> Audi page (implem. with AngularJS!) ... templates>brands
+- reorganizat fisierele (css-urile in dir. lor) si rescris path-urile lor ... logo-urile la fel (images>icons) ...
+
+! angular routing pe logo left-column merge DOAR cu "click dreapta>open lnk in new page"
 
