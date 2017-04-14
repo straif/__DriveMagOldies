@@ -10,4 +10,6 @@ TODO:
 - reorganizat fisierele (css-urile in dir. lor) si rescris path-urile lor ... logo-urile la fel (images>icons) ...
 
 ! angular routing pe logo left-column merge DOAR cu "click dreapta>open lnk in new page"
+(same situation - only, I isolated the code responsible for that and resolved the issue by using local jQuery. However, when trying to do this on the main project the logo disappears! 
+So, there's stuff to understand in the JS files ... Stuff that makes the logo appear on page loading.)
 
