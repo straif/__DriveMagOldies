@@ -37,7 +37,7 @@
 					</ul>
 				</div>
 				<div class="inline-block" id="header-stacks">
-				    <div></div>
+					<div></div>
 					<div></div>
 					<div></div>
 				</div>
@@ -118,108 +118,130 @@
 					</ul>
 				</div>
 			</div>
-			
+
 			<div id="left-column" class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
 				<div id="left-brands" class="block-panel">
 					<ul id="brand-icons">
 						<li id="car-brand-audi">
-                            <a href="#!ww/brand-audi/current-model-audi"><img src="brand-icon-audi.svg" /></a>
-                        </li>                      
+							<a href="#!ww/brand-audi/current-model-audi"><img src="brand-icon-audi.svg" /></a>
+						</li>
 					</ul><!-- more logos to add here ! -->
 					<!-- this Search is to be implemented w KENDO ! -->
 					<div id="toggle-brands" class="panel-title title-clickable">
-                        <h6>Search by car brand</h6>
-                    </div>
-                    <div class="brands columns" id="car-brands" style="display: none;">
-                        <ul>
-                            <li>
-                                <a href="#!/ww/brand-audi/current-model-audi">
-                                    <span>AUDI</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-				</div>
-			</div>	
-			
-			<div class="col-lg-10 col-md-8 col-sm-12 col-xs-12" ng-view>
-			=======================================
-		    </div>
-		</div>
-		
-		
-
-		<footer>
-			<div class="footer-ghost"></div>
-			<div class="footer-menu">
-				<div class="container">
-					<div class="pad vertical-middle inline-block">
-						<a href="/ww/contact">Give us a tip</a>
+						<h6>Search by car brand</h6>
 					</div>
-					|
-					<div class="pad vertical-middle inline-block">
-						<a href="/ww/terms-of-service">Terms of service</a>
-					</div>
-					|
-					<div class="pad vertical-middle inline-block">
-						<a href="/ww/privacy-policy">Privacy Policy</a>
-					</div>
-					|
-					<div class="pad vertical-middle inline-block">
-						<a href="/ww/about-us">About us</a>
-					</div>
-				</div>
-			</div>
-			<div class="footer-section">
-				<div class="container">
-					<div class="col-sm-6">
-						<p>
-							Our Company
-						</p>
+					<div class="brands columns" id="car-brands" style="display: none;">
 						<ul>
-							<li class="inline-block vertical-middle">
-								<a href="http://lastgear.com"> <img width="120" class="img-responsive pad" title="Last Gear" alt="Last Gear" src="https://cdn.drivemag.net/images/ourcompany-lastgear.svg"> </a>
-							</li>
-							<li class="inline-block vertical-middle">
-								<a href="http://alldelicious.com"> <img width="120" class="img-responsive pad" title="All Delicious" alt="All Delicious" src="https://cdn.drivemag.net/images/ourcompany-alldelicious.svg"> </a>
+							<li>
+								<a href="#!/ww/brand-audi/current-model-audi"> <span>AUDI</span> </a>
 							</li>
 						</ul>
-						<br>
-					</div>
-					<div class="col-sm-6">
-						<p>
-							&copy; Last Gear Publishing
-						</p>
-						<div>
-							<a href="/ww/contact"> <img width="60" class="img-responsive centered" title="Contact" alt="Contact" src="https://cdn.drivemag.net/images/menu-icon-contact.svg"> </a>
-						</div>
-						<br>
 					</div>
 				</div>
-			</div>
-		</footer>
-		<!------<script src="js/myjquery.js"></script>------>
-		<script src="js/vendor/jquery-1.12.4.js"></script>
-		<!--<script type="text/javascript" src="https://cdn.drivemag.net/jqeury/jquery.min.js?version=1488903120"></script>-->
-        <!------<script src="js/myjquerymain.js"></script>------>
-        <script src="js/myjs.js"></script>
-		<!--<script type="text/javascript" src="https://cdn.drivemag.net/js/main.min.js?version=1488903120" defer></script>-->
-        
-		<!------<script src="js/fosjrouting.js"></script>------>
-		<!--<script src="https://cdn.drivemag.net/bundles/fosjsrouting/js/router.js"></script>-->
-		<!--<script src="/js/routing?callback=fos.Router.setData"></script>-->
-		
-		<script src="js/vendor/jquery.flexslider.js"></script>
-		<script src="js/vendor/jquery.flexslider-min.js"></script>
-		<script type="text/javascript" charset="utf-8">
-			$(window).load(function() {
-				$('.flexslider').flexslider();
-			});
-		</script>
-		<script src="js/vendor/angular.min.js"></script>
-		<script src="js/vendor/angular-route.min.js"></script>
 
-		<script src="app.js"></script>
+				<div id="left-find-cars" class="left-panel">
+					<div class="block-panel">
+						<div class="center pad">
+							<img src="https://cdn.drivemag.net/images/car-ghost-buyingguide.svg" title="Buying Guide" alt="Buying Guide" class="img-responsive" />
+						</div>
+						<form class="left-form" action="/ww/find-cars" method="post">
+							<select id="left-find-cars-region-selector" class="block" name="region">
+								<option selected="selected" disabled value="">Select a country</option>
+								<option value="de">Germany</option>
+								<option value="us">United States</option>
+								<option value="gb">United Kingdom</option>
+								<option value="in">India</option>
+								<option value="tr">Turkey</option>
+							</select>
+							<br/>
+							<div class="message"></div>
+							<div class="info">
+								* Please select a country
+							</div>
+							<div class="left-btn-go">
+								<input id="left-find-cars-submit" class="btn-disabled" type="button" value="Find Cars" />
+							</div>
+						</form>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-lg-10 col-md-8 col-sm-12 col-xs-12" ng-view>
+				=======================================
+			</div>
+
+			<footer>
+				<div class="footer-ghost"></div>
+				<div class="footer-menu">
+					<div class="container">
+						<div class="pad vertical-middle inline-block">
+							<a href="/ww/contact">Give us a tip</a>
+						</div>
+						|
+						<div class="pad vertical-middle inline-block">
+							<a href="/ww/terms-of-service">Terms of service</a>
+						</div>
+						|
+						<div class="pad vertical-middle inline-block">
+							<a href="/ww/privacy-policy">Privacy Policy</a>
+						</div>
+						|
+						<div class="pad vertical-middle inline-block">
+							<a href="/ww/about-us">About us</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-section">
+					<div class="container">
+						<div class="col-sm-6">
+							<p>
+								Our Company
+							</p>
+							<ul>
+								<li class="inline-block vertical-middle">
+									<a href="http://lastgear.com"> <img width="120" class="img-responsive pad" title="Last Gear" alt="Last Gear" src="https://cdn.drivemag.net/images/ourcompany-lastgear.svg"> </a>
+								</li>
+								<li class="inline-block vertical-middle">
+									<a href="http://alldelicious.com"> <img width="120" class="img-responsive pad" title="All Delicious" alt="All Delicious" src="https://cdn.drivemag.net/images/ourcompany-alldelicious.svg"> </a>
+								</li>
+							</ul>
+							<br>
+						</div>
+						<div class="col-sm-6">
+							<p>
+								&copy; Last Gear Publishing
+							</p>
+							<div>
+								<a href="/ww/contact"> <img width="60" class="img-responsive centered" title="Contact" alt="Contact" src="https://cdn.drivemag.net/images/menu-icon-contact.svg"> </a>
+							</div>
+							<br>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!------<script src="js/myjquery.js"></script>------>
+			<script src="js/vendor/jquery-1.12.4.js"></script>
+			<!--<script type="text/javascript" src="https://cdn.drivemag.net/jqeury/jquery.min.js?version=1488903120"></script>-->
+			<!------<script src="js/myjquerymain.js"></script>------>
+			<script src="js/myjs.js"></script>
+			<!--<script type="text/javascript" src="https://cdn.drivemag.net/js/main.min.js?version=1488903120" defer></script>-->
+
+			<!------<script src="js/fosjrouting.js"></script>------>
+			<!--<script src="https://cdn.drivemag.net/bundles/fosjsrouting/js/router.js"></script>-->
+			<!--<script src="/js/routing?callback=fos.Router.setData"></script>-->
+
+			<script src="js/vendor/jquery.flexslider.js"></script>
+			<script src="js/vendor/jquery.flexslider-min.js"></script>
+			<script type="text/javascript" charset="utf-8">
+				$(window).load(function() {
+					$('.flexslider').flexslider();
+				});
+			</script>
+			<script src="js/vendor/angular.min.js"></script>
+			<script src="js/vendor/angular-route.min.js"></script>
+
+			<script src="app.js"></script>
 	</body>
 
 </html>

@@ -1,7 +1,7 @@
 #main-section select {
     -webkit-appearance: none!important;
     -moz-appearance: none!important;
-    background-image: url(../images/controls/arrow-down.png);
+    background-image: url(images/arrow-down.png);
     background-position: right center;
     background-size: 16px 16px;
     background-repeat: no-repeat;
