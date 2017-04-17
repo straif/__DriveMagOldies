@@ -1,4 +1,4 @@
-/*
+
 .block-card, .block-panel, .brands {
     border: solid #c5d0d3;
     background-color: #fff;
@@ -10,12 +10,12 @@
     font-size: 1em;
     height: auto;
 }
-#article-left-column, #left-column {
-    margin-bottom: 0;
-}
 .left-panel .block-panel, .left-panel .brands {
     height: auto;
     font-size: .9em;
+}/*
+#article-left-column, #left-column {
+    margin-bottom: 0;
 }
 #all-brands li a, #brand-icons li a, #left-download-app a, #left-paris-2016 a {
     display: block;
@@ -755,7 +755,7 @@ body {
     float: left;
     width: calc(100% / 4);
     background-position: center;
-    background-size: 90% 90%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     display: block;
 }
@@ -766,10 +766,10 @@ body {
 }
 #all-brands li#car-brand-audi.brand-active, #all-brands li#car-brand-audi:hover, #brand-icons li#car-brand-audi.brand-active, #brand-icons li#car-brand-audi:hover {
     background-image: url(brand-icon-audi-solid.svg);
-}*/
+}
 #brand-icons li#car-brand-audi {
     background-image: url(brand-icon-audi.svg);
-}
+}*/
 #brand-icons li#car-brand-audi.brand-active, #brand-icons li#car-brand-audi:hover {
     background-image: url(brand-icon-audi-solid.svg);
 }
