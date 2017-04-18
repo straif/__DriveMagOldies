@@ -14,3 +14,8 @@ Done
 (same situation - only, I isolated the code responsible for that and resolved the issue by using local jQuery. However, when trying to do this on the main project the logo disappears! 
 So, there's stuff to understand in the JS files ... Stuff that makes the logo appear on page loading.)
 
+TODO Car Files:
+- de triat (scos) o parte din marci din listele <select> conform cu nisha OLDIES
+- de facut legatura functionala dintre selectarea marcii (lista1) & selectarea automata a variantelor (lista2)
+(poate e bine de revazut formurile in html5, ce are JS de zis aici?)
+
