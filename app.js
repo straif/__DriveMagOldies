@@ -17,6 +17,19 @@
                 templateUrl: './templates/brands/brand-audi/current-model-audi.html',
                 controller: 'MainController'
             })
+            .when('/ww/brand-alfa/current-model-alfa', {
+                templateUrl: './templates/brands/brand-alfa/current-model-alfa.html',
+                controller: 'MainController'
+            })
+            .when('/ww/brand-aston/current-model-aston', {
+                templateUrl: './templates/brands/brand-aston/current-model-aston.html',
+                controller: 'MainController'
+            })
+            // ... dar vezi mai jos! la un moment dat sa folosest route params!
+            //si sa faci controllere pt. fiecare
+            
+            
+            
             
             
             

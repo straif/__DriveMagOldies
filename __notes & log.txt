@@ -17,5 +17,23 @@ So, there's stuff to understand in the JS files ... Stuff that makes the logo ap
 TODO Car Files:
 - de triat (scos) o parte din marci din listele <select> conform cu nisha OLDIES
 - de facut legatura functionala dintre selectarea marcii (lista1) & selectarea automata a variantelor (lista2)
-(poate e bine de revazut formurile in html5, ce are JS de zis aici?)
+(poate e bine de revazut formurile in html5, ce are JS de zis aici?) --- on the thought, I'll simplify this by using just lista1 !
 
+;nisha OLDIES (for logos & <select> options): (dinainte de WW1 - dupa, avem productie de serie2 cu boom-ul economic, tehnologii noi)
+- audi 1910
+- alfa romeo 1910
+- aston martin 1913
+- Benz - Daimler 1883 
+- bugatti 1908 (Hispani-Suiza - 1963, VW - 1998)
+- buick 1899
+- cadillac 1902
+- chevrolet 1911
+- fiat 1899
+- ford 1903
+- gmc 1911
+- lancia 1906
+- peugeot 1882
+- renault 1899
+- rolls-royce 1904
+- skoda 1895
+- vauxhall 1857 (1903 first car)

@@ -227,7 +227,7 @@
     z-index: 99;
 }
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   other    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@ .tabs, .columns, .thumbs
+.tabs, .columns, .thumbs
 .tabs-v-tabs {
     width: 15%;
     background-color: #f1f3f3;
@@ -690,7 +690,7 @@
     color: #009cae;
 }
 .left-form {
-    height: 140px;
+    height: 100px;
 }
 .left-btn-go {
     position: absolute;
@@ -931,11 +931,11 @@
 }
 #toggle-left-panel {
     display: none;
-}
+}/*
 .brands.columns {
     -moz-column-count: 6;
     column-count: 6;
-}
+}*/
 #left-download-app, #left-paris-2016 {
     background-image: url(../images/download-appstore-wide.jpg);
 }
