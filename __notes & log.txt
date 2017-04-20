@@ -37,3 +37,7 @@ TODO Car Files:
 - rolls-royce 1904
 - skoda 1895
 - vauxhall 1857 (1903 first car)
+
+TODO Car Files:
+- de facut legatura functionala dintre selectarea marcii (lista1) si routing. 
+Select > "ww/find-cars" KendoUI grid / jsonAPI/stub (car {country, brand, price})
