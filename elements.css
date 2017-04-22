@@ -675,7 +675,8 @@ table td {
     text-align: left;
 }
 header {
-    background-color: #0b1314;
+    /*background-color: #0b1314;*/
+    background-color: #00260e;
     border-bottom: none;
     box-shadow: 0 2px 4px rgba(11, 19, 20, .4);
     top: 0;
