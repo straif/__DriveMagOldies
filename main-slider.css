@@ -636,14 +636,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     float: left;
-}   
-#site-logo img {
-    width: 180px;
-    height: 45px;
 }
 #site-logo img {
-    width: 180px;
-    height: 45px;
+    width: 200px;
+    height: 50px;
 }
 .brands ul li a, .edition-current {
     font-weight: bolder;
