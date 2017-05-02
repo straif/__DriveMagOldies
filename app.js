@@ -8,10 +8,7 @@
                 templateUrl: './templates/main.html',
                 controller: 'MainController'
             })
-            .when('/second', {
-                templateUrl: './templates/second.html',
-                controller: 'MainController'
-            })
+            
             //todo w. route params --- see comments down!!! ===============================
             .when('/ww/brand-audi/current-model-audi', {
                 templateUrl: './templates/brands/brand-audi/current-model-audi.html',
