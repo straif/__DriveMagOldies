@@ -773,6 +773,9 @@ body {
 #brand-icons li#car-brand-audi.brand-active, #brand-icons li#car-brand-audi:hover {
     background-image: url(brand-icon-audi-solid.svg);
 }
+#brand-icons li#car-brand-alfa.brand-active, #brand-icons li#car-brand-alfa:hover {
+    background-image: url(brand-icon-alfa-romeo-solid.svg);
+}
 /*********************************************************
 #all-brands li#car-brand-bmw, #brand-icons li#car-brand-bmw {
     background-image: url(brand-icon-bmw.svg);
