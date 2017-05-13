@@ -779,6 +779,9 @@ body {
 #brand-icons li#car-brand-aston.brand-active, #brand-icons li#car-brand-aston:hover {
     background-image: url(brand-icon-aston-martin-solid.svg);
 }
+#brand-icons li#car-brand-benz.brand-active, #brand-icons li#car-brand-benz:hover {
+    background-image: url(brand-icon-benz-solid.svg);
+}
 /*********************************************************
 #all-brands li#car-brand-bmw, #brand-icons li#car-brand-bmw {
     background-image: url(brand-icon-bmw.svg);
