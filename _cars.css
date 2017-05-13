@@ -782,6 +782,12 @@ body {
 #brand-icons li#car-brand-benz.brand-active, #brand-icons li#car-brand-benz:hover {
     background-image: url(brand-icon-benz-solid.svg);
 }
+#brand-icons li#car-brand-bugatti.brand-active, #brand-icons li#car-brand-bugatti:hover {
+    background-image: url(brand-icon-bugatti-solid.svg);
+}
+#brand-icons li#car-brand-buick.brand-active, #brand-icons li#car-brand-buick:hover {
+    background-image: url(brand-icon-buick-solid.svg);
+}
 /*********************************************************
 #all-brands li#car-brand-bmw, #brand-icons li#car-brand-bmw {
     background-image: url(brand-icon-bmw.svg);
