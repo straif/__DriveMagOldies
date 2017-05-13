@@ -788,6 +788,12 @@ body {
 #brand-icons li#car-brand-buick.brand-active, #brand-icons li#car-brand-buick:hover {
     background-image: url(brand-icon-buick-solid.svg);
 }
+#brand-icons li#car-brand-cady.brand-active, #brand-icons li#car-brand-cady:hover {
+    background-image: url(brand-icon-cadillac-solid.svg);
+}
+#brand-icons li#car-brand-chevy.brand-active, #brand-icons li#car-brand-chevy:hover {
+    background-image: url(brand-icon-chevrolet-solid.svg);
+}
 /*********************************************************
 #all-brands li#car-brand-bmw, #brand-icons li#car-brand-bmw {
     background-image: url(brand-icon-bmw.svg);
