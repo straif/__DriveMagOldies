@@ -794,6 +794,9 @@ body {
 #brand-icons li#car-brand-chevy.brand-active, #brand-icons li#car-brand-chevy:hover {
     background-image: url(brand-icon-chevrolet-solid.svg);
 }
+#brand-icons li#car-brand-fiat.brand-active, #brand-icons li#car-brand-fiat:hover {
+    background-image: url(brand-icon-fiat-solid.svg);
+}
 /*********************************************************
 #all-brands li#car-brand-bmw, #brand-icons li#car-brand-bmw {
     background-image: url(brand-icon-bmw.svg);
