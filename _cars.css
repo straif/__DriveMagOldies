@@ -803,7 +803,9 @@ body {
 #brand-icons li#car-brand-gmc.brand-active, #brand-icons li#car-brand-gmc:hover {
     background-image: url(brand-icon-gmc-solid.svg);
 }
-
+#brand-icons li#car-brand-lancia.brand-active, #brand-icons li#car-brand-lancia:hover {
+    background-image: url(brand-icon-lancia-solid.svg);
+}
 /*********************************************************
 #all-brands li#car-brand-bmw, #brand-icons li#car-brand-bmw {
     background-image: url(brand-icon-bmw.svg);
