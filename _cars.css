@@ -797,6 +797,13 @@ body {
 #brand-icons li#car-brand-fiat.brand-active, #brand-icons li#car-brand-fiat:hover {
     background-image: url(brand-icon-fiat-solid.svg);
 }
+#brand-icons li#car-brand-ford.brand-active, #brand-icons li#car-brand-ford:hover {
+    background-image: url(brand-icon-ford-solid.svg);
+}
+#brand-icons li#car-brand-gmc.brand-active, #brand-icons li#car-brand-gmc:hover {
+    background-image: url(brand-icon-gmc-solid.svg);
+}
+
 /*********************************************************
 #all-brands li#car-brand-bmw, #brand-icons li#car-brand-bmw {
     background-image: url(brand-icon-bmw.svg);
