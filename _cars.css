@@ -809,6 +809,9 @@ body {
 #brand-icons li#car-brand-peugeot.brand-active, #brand-icons li#car-brand-peugeot:hover {
     background-image: url(brand-icon-peugeot-solid.svg);
 }
+#brand-icons li#car-brand-renault.brand-active, #brand-icons li#car-brand-renault:hover {
+    background-image: url(brand-icon-renault-solid.svg);
+}
 /*********************************************************
 #all-brands li#car-brand-bmw, #brand-icons li#car-brand-bmw {
     background-image: url(brand-icon-bmw.svg);
