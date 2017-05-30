@@ -812,6 +812,9 @@ body {
 #brand-icons li#car-brand-renault.brand-active, #brand-icons li#car-brand-renault:hover {
     background-image: url(brand-icon-renault-solid.svg);
 }
+#brand-icons li#car-brand-rolls.brand-active, #brand-icons li#car-brand-rolls:hover {
+    background-image: url(brand-icon-rolls-royce-solid.svg);
+}
 /*********************************************************
 #all-brands li#car-brand-bmw, #brand-icons li#car-brand-bmw {
     background-image: url(brand-icon-bmw.svg);
