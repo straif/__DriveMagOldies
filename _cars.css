@@ -815,6 +815,9 @@ body {
 #brand-icons li#car-brand-rolls.brand-active, #brand-icons li#car-brand-rolls:hover {
     background-image: url(brand-icon-rolls-royce-solid.svg);
 }
+#brand-icons li#car-brand-bmw.brand-active, #brand-icons li#car-brand-bmw:hover {
+    background-image: url(brand-icon-bmw-solid.svg);
+}
 /*********************************************************
 #all-brands li#car-brand-bmw, #brand-icons li#car-brand-bmw {
     background-image: url(brand-icon-bmw.svg);
