@@ -26,6 +26,10 @@
                 templateUrl: './templates/brands/brand-benz/current-model-benz.html',
                 controller: 'MainController'
             })
+            .when('/ww/brand-bmw/current-model-bmw', {
+                templateUrl: './templates/brands/brand-bmw/current-model-bmw.html',
+                controller: 'MainController'
+            })
             .when('/ww/brand-bugatti/current-model-bugatti', {
                 templateUrl: './templates/brands/brand-bugatti/current-model-bugatti.html',
                 controller: 'MainController'
