@@ -771,52 +771,52 @@ body {
     background-image: url(brand-icon-audi.svg);
 }*/
 #brand-icons li#car-brand-audi.brand-active, #brand-icons li#car-brand-audi:hover {
-    background-image: url(brand-icon-audi-solid.svg);
+    background-image: url(images/brand-icon-audi-solid.svg);
 }
 #brand-icons li#car-brand-alfa.brand-active, #brand-icons li#car-brand-alfa:hover {
-    background-image: url(brand-icon-alfa-romeo-solid.svg);
+    background-image: url(images/brand-icon-alfa-romeo-solid.svg);
 }
 #brand-icons li#car-brand-aston.brand-active, #brand-icons li#car-brand-aston:hover {
-    background-image: url(brand-icon-aston-martin-solid.svg);
+    background-image: url(images/brand-icon-aston-martin-solid.svg);
 }
 #brand-icons li#car-brand-benz.brand-active, #brand-icons li#car-brand-benz:hover {
-    background-image: url(brand-icon-benz-solid.svg);
+    background-image: url(images/brand-icon-benz-solid.svg);
 }
 #brand-icons li#car-brand-bugatti.brand-active, #brand-icons li#car-brand-bugatti:hover {
-    background-image: url(brand-icon-bugatti-solid.svg);
+    background-image: url(images/brand-icon-bugatti-solid.svg);
 }
 #brand-icons li#car-brand-buick.brand-active, #brand-icons li#car-brand-buick:hover {
-    background-image: url(brand-icon-buick-solid.svg);
+    background-image: url(images/brand-icon-buick-solid.svg);
 }
 #brand-icons li#car-brand-cady.brand-active, #brand-icons li#car-brand-cady:hover {
-    background-image: url(brand-icon-cadillac-solid.svg);
+    background-image: url(images/brand-icon-cadillac-solid.svg);
 }
 #brand-icons li#car-brand-chevy.brand-active, #brand-icons li#car-brand-chevy:hover {
-    background-image: url(brand-icon-chevrolet-solid.svg);
+    background-image: url(images/brand-icon-chevrolet-solid.svg);
 }
 #brand-icons li#car-brand-fiat.brand-active, #brand-icons li#car-brand-fiat:hover {
-    background-image: url(brand-icon-fiat-solid.svg);
+    background-image: url(images/brand-icon-fiat-solid.svg);
 }
 #brand-icons li#car-brand-ford.brand-active, #brand-icons li#car-brand-ford:hover {
-    background-image: url(brand-icon-ford-solid.svg);
+    background-image: url(images/brand-icon-ford-solid.svg);
 }
 #brand-icons li#car-brand-gmc.brand-active, #brand-icons li#car-brand-gmc:hover {
-    background-image: url(brand-icon-gmc-solid.svg);
+    background-image: url(images/brand-icon-gmc-solid.svg);
 }
 #brand-icons li#car-brand-lancia.brand-active, #brand-icons li#car-brand-lancia:hover {
-    background-image: url(brand-icon-lancia-solid.svg);
+    background-image: url(images/brand-icon-lancia-solid.svg);
 }
 #brand-icons li#car-brand-peugeot.brand-active, #brand-icons li#car-brand-peugeot:hover {
-    background-image: url(brand-icon-peugeot-solid.svg);
+    background-image: url(images/brand-icon-peugeot-solid.svg);
 }
 #brand-icons li#car-brand-renault.brand-active, #brand-icons li#car-brand-renault:hover {
-    background-image: url(brand-icon-renault-solid.svg);
+    background-image: url(images/brand-icon-renault-solid.svg);
 }
 #brand-icons li#car-brand-rolls.brand-active, #brand-icons li#car-brand-rolls:hover {
-    background-image: url(brand-icon-rolls-royce-solid.svg);
+    background-image: url(images/brand-icon-rolls-royce-solid.svg);
 }
 #brand-icons li#car-brand-bmw.brand-active, #brand-icons li#car-brand-bmw:hover {
-    background-image: url(brand-icon-bmw-solid.svg);
+    background-image: url(images/brand-icon-bmw-solid.svg);
 }
 /*********************************************************
 #all-brands li#car-brand-bmw, #brand-icons li#car-brand-bmw {
