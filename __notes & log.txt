@@ -41,3 +41,7 @@ TODO Car Files:
 TODO Car Files:
 - de facut legatura functionala dintre selectarea marcii (lista1) si routing. 
 Select > "ww/find-cars" KendoUI grid / jsonAPI/stub (car {country, brand, price})
+
+
+
+http://www.emercedesbenz.com/Sep08/12_001387_eMercedesBenz_Feature_The_Worlds_First_Production_Car_The_Benz_Patent_Motor_Car_Velocipede_Of_1894.html
