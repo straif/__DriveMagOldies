@@ -8,7 +8,7 @@
                 templateUrl: './templates/main.html',
                 controller: 'MainController'
             })
-            
+            //LOGOS ==================================================================
             //todo w. route params --- see comments down!!! ===============================
             .when('/ww/brand-audi/current-model-audi', {
                 templateUrl: './templates/brands/brand-audi/current-model-audi.html',
@@ -84,8 +84,15 @@
             })
             // ... dar vezi mai jos! la un moment dat sa folosest route params!
             //si sa faci controllere pt. fiecare
-            
-            
+            //FELX-SLIDER ==================================================================
+            .when('/ww/news/benz-velocipede', {
+                templateUrl: './templates/news/news-01.html',
+                controller: 'MainController'
+            })
+            .when('/ww/news/collectibles', {
+                templateUrl: './templates/news/news-02.html',
+                controller: 'MainController'
+            })
             
             
             
