@@ -93,7 +93,10 @@
                 templateUrl: './templates/news/news-02.html',
                 controller: 'MainController'
             })
-            
+            .when('/ww/news/treasure', {
+                templateUrl: './templates/news/news-03.html',
+                controller: 'MainController'
+            })
             
             
             
