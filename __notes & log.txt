@@ -45,3 +45,11 @@ Select > "ww/find-cars" KendoUI grid / jsonAPI/stub (car {country, brand, price}
 
 Flexslider --- Benz Velocipede lnk:
 http://www.emercedesbenz.com/Sep08/12_001387_eMercedesBenz_Feature_The_Worlds_First_Production_Car_The_Benz_Patent_Motor_Car_Velocipede_Of_1894.html
+
+https://en.wikipedia.org/wiki/List_of_most_expensive_cars_sold_at_auction --- December 3, 2007	1904	Rolls-Royce 10 hp Two-Seater, Londra, 8.379.000 dolari (adjusted price)
+
+https://en.wikipedia.org/wiki/Rolls-Royce_Armoured_Car
+
+http://www.bbc.com/autos/story/20130724-twelve-decades-of-diesel
+
+https://en.wikipedia.org/wiki/Lohner-Porsche

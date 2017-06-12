@@ -97,9 +97,22 @@
                 templateUrl: './templates/news/news-03.html',
                 controller: 'MainController'
             })
-            
-            
-            
+            .when('/ww/news/expensive', {
+                templateUrl: './templates/news/news-04.html',
+                controller: 'MainController'
+            })
+            .when('/ww/news/armoured', {
+                templateUrl: './templates/news/news-05.html',
+                controller: 'MainController'
+            })
+            .when('/ww/news/diesel', {
+                templateUrl: './templates/news/news-06.html',
+                controller: 'MainController'
+            })
+            .when('/ww/news/hybrid', {
+                templateUrl: './templates/news/news-07.html',
+                controller: 'MainController'
+            })
             // ...
             //until route params, same for brand-02 ... 07 ================================
             //=============================================================================
