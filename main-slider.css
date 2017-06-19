@@ -35,7 +35,7 @@
     display: block;
     direction: ltr;
     background-color: #006570;
-    background-image: url(../images/slider-bg.jpg);
+    background-image: url(../images/slider-bg_.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -2493,15 +2493,6 @@ article {
 #results-banner.page-stories {
     background-image: url(../images/bnr-page-stories.svg), url(../images/slider-bg.jpg);
 }
-#results-banner.page-testrides {
-    background-image: url(../images/bnr-page-testrides.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-acura {
-    background-image: url(../images/bnr-brand-acura.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-alpina {
-    background-image: url(../images/bnr-brand-alpina.svg), url(../images/slider-bg.jpg);
-}
 #results-banner.brand-audi {
     background-image: url(../images/bnr-brand-audi.svg), url(../images/slider-bg.jpg);
 }
@@ -2514,74 +2505,17 @@ article {
 #results-banner.brand-buick {
     background-image: url(../images/bnr-brand-buick.svg), url(../images/slider-bg.jpg);
 }
-#results-banner.brand-caterham {
-    background-image: url(../images/bnr-brand-caterham.svg), url(../images/slider-bg.jpg);
-}
 #results-banner.brand-chevrolet {
     background-image: url(../images/bnr-brand-chevrolet.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-chrysler {
-    background-image: url(../images/bnr-brand-chrysler.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-dodge {
-    background-image: url(../images/bnr-brand-dodge.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-ds {
-    background-image: url(../images/bnr-brand-ds.svg), url(../images/slider-bg.jpg);
 }
 #results-banner.brand-ford {
     background-image: url(../images/bnr-brand-ford.svg), url(../images/slider-bg.jpg);
 }
-#results-banner.brand-geely {
-    background-image: url(../images/bnr-brand-geely.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-honda {
-    background-image: url(../images/bnr-brand-honda.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-hyundai {
-    background-image: url(../images/bnr-brand-hyundai.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-isuzu {
-    background-image: url(../images/bnr-brand-isuzu.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-jeep {
-    background-image: url(../images/bnr-brand-jeep.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-kia {
-    background-image: url(../images/bnr-brand-kia.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-lada {
-    background-image: url(../images/bnr-brand-lada.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-lexus {
-    background-image: url(../images/bnr-brand-lexus.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-mazda {
-    background-image: url(../images/bnr-brand-mazda.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-mclaren {
-    background-image: url(../images/bnr-brand-mclaren.svg), url(../images/slider-bg.jpg);
-}
 #results-banner.brand-mercedes {
     background-image: url(../images/bnr-brand-mercedes.svg), url(../images/slider-bg.jpg);
 }
-#results-banner.brand-nissan {
-    background-image: url(../images/bnr-brand-nissan.svg), url(../images/slider-bg.jpg);
-}
 #results-banner.brand-skoda {
     background-image: url(../images/bnr-brand-skoda.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-subaru {
-    background-image: url(../images/bnr-brand-subaru.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-toyota {
-    background-image: url(../images/bnr-brand-toyota.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-vw {
-    background-image: url(../images/bnr-brand-vw.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-abarth {
-    background-image: url(../images/bnr-brand-abarth.svg), url(../images/slider-bg.jpg);
 }
 #results-banner.brand-alfa-romeo {
     background-image: url(../images/bnr-brand-alfa-romeo.svg), url(../images/slider-bg.jpg);
@@ -2589,71 +2523,14 @@ article {
 #results-banner.brand-aston-martin {
     background-image: url(../images/bnr-brand-aston-martin.svg), url(../images/slider-bg.jpg);
 }
-#results-banner.brand-bentley {
-    background-image: url(../images/bnr-brand-bentley.svg), url(../images/slider-bg.jpg);
-}
 #results-banner.brand-cadillac {
     background-image: url(../images/bnr-brand-cadillac.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-citroen {
-    background-image: url(../images/bnr-brand-citroen.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-dacia {
-    background-image: url(../images/bnr-brand-dacia.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-ferrari {
-    background-image: url(../images/bnr-brand-ferrari.svg), url(../images/slider-bg.jpg);
 }
 #results-banner.brand-fiat {
     background-image: url(../images/bnr-brand-fiat.svg), url(../images/slider-bg.jpg);
 }
-#results-banner.brand-fisker {
-    background-image: url(../images/bnr-brand-fisker.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-infiniti {
-    background-image: url(../images/bnr-brand-infiniti.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-jaguar {
-    background-image: url(../images/bnr-brand-jaguar.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-lamborghini {
-    background-image: url(../images/bnr-brand-lamborghini.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-lancia {
-    background-image: url(../images/bnr-brand-lancia.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-land-rover {
-    background-image: url(../images/bnr-brand-land-rover.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-lincoln {
-    background-image: url(../images/bnr-brand-lincoln.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-maserati {
-    background-image: url(../images/bnr-brand-maserati.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-lotus {
-    background-image: url(../images/bnr-brand-lotus.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-mini {
-    background-image: url(../images/bnr-brand-mini.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-mitsubishi {
-    background-image: url(../images/bnr-brand-mitsubishi.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-opel {
-    background-image: url(../images/bnr-brand-opel.svg), url(../images/slider-bg.jpg);
-}
 #results-banner.brand-peugeot {
     background-image: url(../images/bnr-brand-peugeot.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-pontiac {
-    background-image: url(../images/bnr-brand-pontiac.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-porsche {
-    background-image: url(../images/bnr-brand-porsche.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-ram {
-    background-image: url(../images/bnr-brand-ram.svg), url(../images/slider-bg.jpg);
 }
 #results-banner.brand-renault {
     background-image: url(../images/bnr-brand-renault.svg), url(../images/slider-bg.jpg);
@@ -2661,170 +2538,11 @@ article {
 #results-banner.brand-rolls-royce {
     background-image: url(../images/bnr-brand-rolls-royce.svg), url(../images/slider-bg.jpg);
 }
-#results-banner.brand-scion {
-    background-image: url(../images/bnr-brand-scion.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-seat {
-    background-image: url(../images/bnr-brand-seat.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-smart {
-    background-image: url(../images/bnr-brand-smart.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-ssangyong {
-    background-image: url(../images/bnr-brand-ssangyong.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-suzuki {
-    background-image: url(../images/bnr-brand-suzuki.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-tesla {
-    background-image: url(../images/bnr-brand-tesla.svg), url(../images/slider-bg.jpg);
-}
 #results-banner.brand-vauxhall {
     background-image: url(../images/bnr-brand-vauxhall.svg), url(../images/slider-bg.jpg);
 }
-#results-banner.brand-volvo {
-    background-image: url(../images/bnr-brand-volvo.svg), url(../images/slider-bg.jpg);
-}
 #results-banner.brand-gmc {
     background-image: url(../images/bnr-brand-gmc.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-aprilia {
-    background-image: url(../images/bnr-brand-aprilia.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-beta {
-    background-image: url(../images/bnr-brand-beta.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-bimota {
-    background-image: url(../images/bnr-brand-bimota.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-bmw-motorrad {
-    background-image: url(../images/bnr-brand-bmw-motorrad.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-bsa {
-    background-image: url(../images/bnr-brand-bsa.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-buell {
-    background-image: url(../images/bnr-brand-buell.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-cagiva {
-    background-image: url(../images/bnr-brand-cagiva.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-can-am {
-    background-image: url(../images/bnr-brand-can-am.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-ducati {
-    background-image: url(../images/bnr-brand-ducati.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-harley-davidson {
-    background-image: url(../images/bnr-brand-harley-davidson.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-honda-bikes {
-    background-image: url(../images/bnr-brand-honda-bikes.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-husaberg {
-    background-image: url(../images/bnr-brand-husaberg.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-husqvarna {
-    background-image: url(../images/bnr-brand-husqvarna.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-indian {
-    background-image: url(../images/bnr-brand-indian.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-jawa {
-    background-image: url(../images/bnr-brand-jawa.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-kawasaki {
-    background-image: url(../images/bnr-brand-kawasaki.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-ktm-bikes {
-    background-image: url(../images/bnr-brand-ktm-bikes.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-kymco {
-    background-image: url(../images/bnr-brand-kymco.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-moto-guzzi {
-    background-image: url(../images/bnr-brand-moto-guzzi.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-mv-agusta {
-    background-image: url(../images/bnr-brand-mv-agusta.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-norton {
-    background-image: url(../images/bnr-brand-norton.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-piaggio {
-    background-image: url(../images/bnr-brand-piaggio.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-royal-enfield {
-    background-image: url(../images/bnr-brand-royal-enfield.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-suzuki-bikes {
-    background-image: url(../images/bnr-brand-suzuki-bikes.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-triumph {
-    background-image: url(../images/bnr-brand-triumph.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-ural {
-    background-image: url(../images/bnr-brand-ural.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-vespa {
-    background-image: url(../images/bnr-brand-vespa.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-victory {
-    background-image: url(../images/bnr-brand-victory.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-yamaha {
-    background-image: url(../images/bnr-brand-yamaha.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-astondoa {
-    background-image: url(../images/bnr-brand-astondoa.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-baglietto {
-    background-image: url(../images/bnr-brand-baglietto.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-blohm-voss {
-    background-image: url(../images/bnr-brand-blohm-voss.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-codecasa {
-    background-image: url(../images/bnr-brand-codecasa.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-feadship {
-    background-image: url(../images/bnr-brand-feadship.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-ferretti {
-    background-image: url(../images/bnr-brand-ferretti.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-lurssen {
-    background-image: url(../images/bnr-brand-lurssen.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-oceanco {
-    background-image: url(../images/bnr-brand-oceanco.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-pearl-yachts {
-    background-image: url(../images/bnr-brand-pearl-yachts.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-palmer-johnson {
-    background-image: url(../images/bnr-brand-palmer-johnson.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-princess {
-    background-image: url(../images/bnr-brand-princess.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-riva {
-    background-image: url(../images/bnr-brand-riva.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-sanlorenzo {
-    background-image: url(../images/bnr-brand-sanlorenzo.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-silver-yachts {
-    background-image: url(../images/bnr-brand-silver-yachts.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-sunseeker {
-    background-image: url(../images/bnr-brand-sunseeker.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-wally {
-    background-image: url(../images/bnr-brand-wally.svg), url(../images/slider-bg.jpg);
-}
-#results-banner.brand-range-rover {
-    background-image: url(../images/bnr-brand-land-rover.svg), url(../images/slider-bg.jpg);
 }
 #brand-description {
     color: #5f6a6d;
