@@ -18,7 +18,7 @@
 		<link rel="stylesheet" href="main-slider.css" />
 		<link rel="stylesheet" href="footer.css" />-->
 
-		<link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/myBootstrap.css" />
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
 	</head>
@@ -26,43 +26,50 @@
 	<body>
 		<header class="container">
 			<div id="headerBar" class="navbar navbar-default overflow-hidden">
-				<div class="right" id="logo">
-					<a href="#/main">
-					<div class="inline-block vertical-middle" id="site-logo">
-						<img title="DriveMag" alt="DriveMag" src="images/logo2.png">
-					</div> </a>
+				<div class="nav navbar-header navbar-right">
+					<div class="right" id="logo">
+						<a href="#/main">
+						<div class="inline-block vertical-middle" id="site-logo">
+							<img title="DriveMag" alt="DriveMag" src="images/logo2.png">
+						</div> </a>
+					</div>
+					
+					<div id="header-search-input" class="right">
+						<form method="get" action="/ww/search-results">
+							<input type="search" placeholder="Dig for Goldies..." name="searchText">
+							<button class="btn btn-lg searchBtn">
+								<span class="glyphicon glyphicon-search"></span>
+							</button>
+						</form>
+					</div>
+					
+					<!--
+					<div class="right">
+						<ul id="header-search-label">
+							<li id="header-search-button"></li>
+						</ul>
+					</div>
+					
+					<div class="inline-block" id="header-stacks">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					-->
 				</div>
-				<div class="right">
-					<ul id="header-search-label">
-						<li id="header-search-button"></li>
-					</ul>
-				</div>
-				<div class="inline-block" id="header-stacks">
-					<div></div>
-					<div></div>
-					<div></div>
-				</div>
-				<div id="header-search-input">
-					<form method="get" action="/ww/search-results">
-						<input type="search" placeholder="Dig for Goldies..." name="searchText">
-						<button class="btn btn-default">Dig</button>
-					</form>
-				</div>
-				<div id="main-menu">
-					<ul id="main-nav" class="">
-						<li id="main-nav-home">
+				<div id="main-menu" class="navbar-collapse collapse">
+					<ul id="main-nav" class="nav navbar-nav">
+						<li id="main-nav-home" class="nav active">
 							<a href="/ww/main"> <span>Home</span> </a>
 						</li>
-						<li id="main-nav-news">
+						<li id="main-nav-news" class="nav">
 							<a href="/ww/news"> <span>News</span> </a>
 						</li>
-						<li id="main-nav-car-specs">
-							<a href="/ww/brands"> <span>Car
-								<br/>
-								Specs</span> </a>
+						<li id="main-nav-car-specs" class="nav">
+							<a href="/ww/brands"> <span>Car Specs</span> </a>
 						</li>
-						<li id="main-nav-carfile">
-							<a href="/ww/car-files"> <span>Car files</span> </a>
+						<li id="main-nav-carfile" class="nav">
+							<a href="/ww/car-files"> <span>Car Files</span> </a>
 						</li>
 						<!-- to do maybe - links to CARS, RIDERS & BOATS; also BUYING-GUIDE? -->
 					</ul>
@@ -346,11 +353,11 @@
 		</footer>
 		<!------<script src="js/myjquery.js"></script>------>
 		<!------<script src="js/vendor/jquery-1.12.4.js"></script>------>
-		<script src="js/vendor/jquery-2.0.3.js"></script>
-		<script src="js/vendor/bootstrap.min.js"></script>
+		<script src="js/jquery-2.0.3.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<script src="js/myjs.js"></script>
-		<script src="js/vendor/angular.min.js"></script>
-		<script src="js/vendor/angular-route.min.js"></script>
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-route.min.js"></script>
 
 		<script src="app.js"></script>
 	</body>

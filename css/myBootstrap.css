@@ -9,3 +9,29 @@
 ul {
 	list-style-type: none;
 }
+
+.searchBtn {
+	background-color: #000f05;
+}
+
+#logo {
+	position: relative;
+	padding: .8em 2em;
+}
+
+#site-logo img {
+    display: block;
+    width: 200px;
+    height: 50px;
+}
+
+#header-search-input {
+    position: relative;
+    padding: 1em .05em;
+}
+
+.right {
+    float: right;
+    display: inline-block;
+}
+
