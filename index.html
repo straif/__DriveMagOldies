@@ -19,12 +19,13 @@
 		<link rel="stylesheet" href="footer.css" />-->
 
 		<link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/myBootstrap.css" />
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
 		<header class="container">
-			<div class="overflow-hidden">
+			<div id="headerBar" class="navbar navbar-default overflow-hidden">
 				<div class="right" id="logo">
 					<a href="#/main">
 					<div class="inline-block vertical-middle" id="site-logo">
@@ -44,7 +45,7 @@
 				<div id="header-search-input">
 					<form method="get" action="/ww/search-results">
 						<input type="search" placeholder="Dig for Goldies..." name="searchText">
-						<input type="submit" value="" />
+						<button class="btn btn-default">Dig</button>
 					</form>
 				</div>
 				<div id="main-menu">
