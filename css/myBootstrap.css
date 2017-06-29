@@ -35,3 +35,7 @@ ul {
     display: inline-block;
 }
 
+#main-menu {
+	margin-bottom: -.6em;
+	padding: 1em 1em;
+}
