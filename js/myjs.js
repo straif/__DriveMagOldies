@@ -10,3 +10,7 @@ $(window).bind("pageshow", function() {
 $("#left-find-cars-region-selector").change(function() {
         "" != $(this).val() && $("#left-find-cars-submit").removeClass("btn-disabled");
 });
+
+/* ================================================================ */
+
+$("#caruselul").carousel();
