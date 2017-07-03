@@ -49,7 +49,22 @@ ul {
 	padding-top: 10px;
 }
 
-input {
+input[type='search'], select {
 	background-color: #a1a15b;
+	color: #e6eae3;
 }
+
+/* left-brands --- block-panel --- brand-icons */
+
+.block-panel, .brands {
+    border: solid #c5d0d3;
+    background-color: #fff;
+    border-width: 1px;
+    margin: 0 auto .5em;
+    padding: .5em;
+    font-size: 1em;
+    height: auto;
+}
+
+
 
