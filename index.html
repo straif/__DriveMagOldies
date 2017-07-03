@@ -27,11 +27,13 @@
 		<header class="container">
 			<div id="headerBar" class="navbar navbar-default navbar-fixed-top overflow-hidden">
 				<div class="navbar-header navbar-right">
-					<button class="btn btn-success navbar-toggle"
-					data-toggle="collapse"
-					data-target=".navbar-collapse">
-						<span class="glyphicon glyphicon-list"></span>
-					</button>
+					<div  id="collapser">
+						<button class="btn btn-success navbar-toggle pull-left"
+						data-toggle="collapse"
+						data-target=".navbar-collapse">
+							<span class="glyphicon glyphicon-list"></span>
+						</button>
+					</div>
 					<div class="right" id="logo">
 						<a href="#/main">
 						<div class="inline-block vertical-middle" id="site-logo">
@@ -50,7 +52,7 @@
 				</div>
 				<div id="main-menu" class="navbar-collapse collapse">
 					<ul id="main-nav" class="nav navbar-nav">
-						<li id="main-nav-home" class="nav active">
+						<li id="main-nav-home" class="nav">
 							<a href="/ww/main"> Home </a>
 						</li>
 						<li id="main-nav-news" class="nav">

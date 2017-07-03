@@ -43,3 +43,13 @@ ul {
 	margin-bottom: -.6em;
 	padding: 1em 1em;
 }
+
+#collapser {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+input {
+	background-color: #a1a15b;
+}
+
