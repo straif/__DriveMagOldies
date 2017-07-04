@@ -136,11 +136,13 @@
 				</div>
 			</div>
 			<div class="row">
-				<div id="left-column" class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
+				<div id="left-column" class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<div id="left-brands" class="block-panel">
 						<ul id="brand-icons">
 							<li id="car-brand-audi">
-								<a href="#!ww/brand-audi/current-model-audi"><img src="images/brand-icon-audi.svg" style="width: 100%; height: auto;" /></a>
+								<a href="#!ww/brand-audi/current-model-audi"><img src="images/brand-icon-audi.svg" style="width: 100%; height: auto;" 
+									                                              onmouseover="this.src='images/brand-icon-audi-solid.svg'"
+									                                              onmouseout="this.src='images/brand-icon-audi.svg'"/></a>
 							</li>
 							<li id="car-brand-alfa">
 								<a href="#!ww/brand-alfa/current-model-alfa"><img src="images/brand-icon-alfa-romeo.svg" style="width: 100%; height: auto;" /></a>
@@ -305,7 +307,7 @@
 					</div>
 				</div>
 
-				<div id="center-column" class="col-lg-10 col-md-8 col-sm-12 col-xs-12" ng-view>
+				<div id="center-column" class="col-lg-8 col-md-8 col-sm-12 col-xs-12" ng-view>
 					=======================================
 				</div>
 			</div>
