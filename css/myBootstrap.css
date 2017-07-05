@@ -1,5 +1,17 @@
 body {
-	margin-top: 70px;
+	margin-top: 90px;
+}
+
+#searchText {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 0;
+}
+
+.searchBtn {
+	background-color: #000f05;
+	color: #901f10;
 }
 
 #main-slider {
@@ -10,12 +22,12 @@ body {
 	background-color: #000f05;
 }
 
-ul {
-	list-style-type: none;
+#headerBar {
+	border: none;
 }
 
-.searchBtn {
-	background-color: #000f05;
+ul {
+	list-style-type: none;
 }
 
 #logo {
@@ -109,56 +121,19 @@ body {
     display: block;
 }
 
+.item {
+	 /* padding-left: 220px; */ /* !!! de responive-izat !!! */
+	padding-left: 220px;
+}
+
 /*original
  #brand-icons li#car-brand-audi.brand-active, #brand-icons li#car-brand-audi:hover {
     background-image: url(images/brand-icon-audi-solid.svg);
 }
  * */
-#brand-icons li#car-brand-audi:hover{
-    background: url(images/brand-icon-audi-solid.svg);
-}
-#brand-icons li#car-brand-alfa:hover {
-    background-image: url(images/brand-icon-alfa-romeo-solid.svg);
-}
-#brand-icons li#car-brand-aston:hover {
-    background-image: url(images/brand-icon-aston-martin-solid.svg);
-}
-#brand-icons li#car-brand-benz:hover {
-    background-image: url(images/brand-icon-benz-solid.svg);
-}
-#brand-icons li#car-brand-bugatti:hover {
-    background-image: url(images/brand-icon-bugatti-solid.svg);
-}
-#brand-icons li#car-brand-buick:hover {
-    background-image: url(images/brand-icon-buick-solid.svg);
-}
-#brand-icons li#car-brand-cady:hover {
-    background-image: url(images/brand-icon-cadillac-solid.svg);
-}
-#brand-icons li#car-brand-chevy:hover {
-    background-image: url(images/brand-icon-chevrolet-solid.svg);
-}
-#brand-icons li#car-brand-fiat:hover {
-    background-image: url(images/brand-icon-fiat-solid.svg);
-}
-#brand-icons li#car-brand-ford:hover {
-    background-image: url(images/brand-icon-ford-solid.svg);
-}
-#brand-icons li#car-brand-gmc:hover {
-    background-image: url(images/brand-icon-gmc-solid.svg);
-}
-#brand-icons li#car-brand-lancia:hover {
-    background-image: url(images/brand-icon-lancia-solid.svg);
-}
-#brand-icons li#car-brand-peugeot:hover {
-    background-image: url(images/brand-icon-peugeot-solid.svg);
-}
-#brand-icons li#car-brand-renault:hover {
-    background-image: url(images/brand-icon-renault-solid.svg);
-}
-#brand-icons li#car-brand-rolls:hover {
-    background-image: url(images/brand-icon-rolls-royce-solid.svg);
-}
-#brand-icons li#car-brand-bmw:hover {
-    background-image: url(images/brand-icon-bmw-solid.svg);
+
+@media all and (max-width: 2048px) {
+	.item {
+		padding-left: 170px;
+    }
 }
