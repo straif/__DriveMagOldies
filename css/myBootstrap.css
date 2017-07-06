@@ -1,3 +1,7 @@
+html, body {
+	height: 100%;
+}
+
 body {
 	margin-top: 90px;
 }
@@ -66,7 +70,22 @@ input[type='search'], select {
 	color: #e6eae3;
 }
 
+#caruselul {
+	width: 100%;
+}
 
+.carousel-inner {
+	width: 100%;
+}
+
+.carousel-caption {
+	color: #bfbfaf;
+	right: 0;
+}
+
+.carousel-indicators {
+	margin: auto -50% 0;
+}
 /* left-brands --- block-panel --- brand-icons */
 
 
@@ -125,15 +144,66 @@ body {
 	 /* padding-left: 220px; */ /* !!! de responive-izat !!! */
 	padding-left: 220px;
 }
-
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
 /*original
  #brand-icons li#car-brand-audi.brand-active, #brand-icons li#car-brand-audi:hover {
     background-image: url(images/brand-icon-audi-solid.svg);
 }
  * */
 
-@media all and (max-width: 2048px) {
+@media all and (max-width: 1900px) {
 	.item {
-		padding-left: 170px;
+		padding-left: 200px;
+    }
+}
+@media all and (max-width: 1880px) {
+	.item {
+		padding-left: 180px;
+    }
+}
+@media all and (max-width: 1860px) {
+	.item {
+		padding-left: 160px;
+    }
+}
+@media all and (max-width: 1840px) {
+	.item {
+		padding-left: 140px;
+    }
+}
+@media all and (max-width: 1820px) {
+	.item {
+		padding-left: 120px;
+    }
+}
+@media all and (max-width: 1800px) {
+	.item {
+		padding-left: 100px;
+    }
+}
+@media all and (max-width: 1780px) {
+	.item {
+		padding-left: 80px;
+    }
+}
+@media all and (max-width: 1760px) {
+	.item {
+		padding-left: 60px;
+    }
+}
+@media all and (max-width: 1740px) {
+	.item {
+		padding-left: 40px;
+    }
+}
+@media all and (max-width: 1720px) {
+	.item {
+		padding-left: 20px;
+    }
+}
+@media all and (max-width: 1700px) {
+	.item {
+		padding-left: 0px;
     }
 }
