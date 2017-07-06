@@ -126,6 +126,10 @@ body {
     font-size: .9em;
 }
 
+#brand-icons {
+	margin-left: -40px;
+}
+
 #brand-icons li a {
     display: block;
     height: 100%;
