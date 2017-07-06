@@ -207,3 +207,11 @@ body {
 		padding-left: 0px;
     }
 }
+
+@media all and (max-width: 991px) {
+	#headerBar {
+		position: fixed;
+    }
+}
+
+
