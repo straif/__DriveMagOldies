@@ -150,6 +150,46 @@ body {
 }
 .carousel,.item,.active{height:100%;}
 .carousel-inner{height:100%;}
+
+.panel-title {
+    margin: .1em 0;
+    font-size: 1em;
+    text-align: center;
+}
+.panel-title#toggle-brands {
+    font-size: 1.1em;
+}
+.title-clickable * {
+    color: #901f10!important;
+    cursor: pointer;
+}
+.title-clickable h6:hover {
+   color: #a1a15b; /* not working */
+}
+/*h1, h2, h3, h4, h5, h6 {
+    color: #6d645f;
+}
+*/
+.brands ul li a, .edition-current {
+    font-weight: bolder;
+    color: #901f10;
+}
+.brands {
+    margin-bottom: 0;
+    background-color: #d6d6be;
+}
+.brands ul li {
+    padding: .25em 0;
+    text-transform: uppercase;
+}
+.brands ul li a {
+    font-size: .9em;
+}
+.brands.columns {
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
 /*original
  #brand-icons li#car-brand-audi.brand-active, #brand-icons li#car-brand-audi:hover {
     background-image: url(images/brand-icon-audi-solid.svg);
