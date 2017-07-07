@@ -86,31 +86,31 @@
             //si sa faci controllere pt. fiecare
             //FELX-SLIDER ==================================================================
             .when('/ww/news/benz-velocipede', {
-                templateUrl: './templates/news/news-01.html',
+                templateUrl: './templates/news/benz-velocipede.html',
                 controller: 'MainController'
             })
             .when('/ww/news/collectibles', {
-                templateUrl: './templates/news/news-02.html',
+                templateUrl: './templates/news/collectibles.html',
                 controller: 'MainController'
             })
             .when('/ww/news/treasure', {
-                templateUrl: './templates/news/news-03.html',
+                templateUrl: './templates/news/rustingClassix.html',
                 controller: 'MainController'
             })
             .when('/ww/news/expensive', {
-                templateUrl: './templates/news/news-04.html',
+                templateUrl: './templates/news/mostExpensiveOld.html',
                 controller: 'MainController'
             })
             .when('/ww/news/armoured', {
-                templateUrl: './templates/news/news-05.html',
+                templateUrl: './templates/news/armouredRolls.html',
                 controller: 'MainController'
             })
             .when('/ww/news/diesel', {
-                templateUrl: './templates/news/news-06.html',
+                templateUrl: './templates/news/diesel.html',
                 controller: 'MainController'
             })
             .when('/ww/news/hybrid', {
-                templateUrl: './templates/news/news-07.html',
+                templateUrl: './templates/news/oldestHybrid.html',
                 controller: 'MainController'
             })
             // ...
