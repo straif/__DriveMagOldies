@@ -8,6 +8,22 @@
                 templateUrl: './templates/main.html',
                 controller: 'MainController'
             })
+            .when('/ww/main', {
+                templateUrl: './templates/main.html',
+                controller: 'MainController'
+            })
+            .when('/ww/news', {
+                templateUrl: './templates/news/allnews.html',
+                controller: 'MainController'
+            })
+            .when('/ww/brands', {
+                templateUrl: './templates/brands/allbrands.html',
+                controller: 'MainController'
+            })
+            .when('/ww/car-files', {
+                templateUrl: './templates/brands/carFiles.html',
+                controller: 'MainController'
+            })
             //LOGOS ==================================================================
             //todo w. route params --- see comments down!!! ===============================
             .when('/ww/brand-audi/current-model-audi', {
