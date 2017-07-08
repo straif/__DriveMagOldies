@@ -24,6 +24,11 @@
                 templateUrl: './templates/brands/carFiles.html',
                 controller: 'MainController'
             })
+            
+            .when('/ww/search-results', {
+                templateUrl: './templates/search.html',
+                controller: 'MainController'
+            })
             //LOGOS ==================================================================
             //todo w. route params --- see comments down!!! ===============================
             .when('/ww/brand-audi/current-model-audi', {

@@ -316,6 +316,18 @@ input[type='search'], select {
 	}
 }
 
+@media all and (max-width: 550px) {
+	#logo {
+		display: inline-block;
+		transform: scale(.85,.85);
+		/*
+		-webkit-transform: scale(17,1);
+		-moz-transform: scale(17,1) -ms-transform :scale(17,1);
+		-o-transform: scale(17,1);
+		*/
+	}
+}
+
 @media all and (max-width: 491px) {
 	#searchText {
 		width: 90px;
