@@ -320,11 +320,10 @@ input[type='search'], select {
 	#logo {
 		display: inline-block;
 		transform: scale(.85,.85);
-		/*
-		-webkit-transform: scale(17,1);
-		-moz-transform: scale(17,1) -ms-transform :scale(17,1);
-		-o-transform: scale(17,1);
-		*/
+		margin-right: -25px;
+	}
+	#header-search-input {
+		margin-right: -40px;
 	}
 }
 
@@ -344,4 +343,35 @@ input[type='search'], select {
 		-o-transform: scale(17,1);
 		*/
 	}
+	#header-search-input {
+		margin-right: -50px;
+	}
 }
+
+@media all and (max-width: 481px) {
+	#logo {
+		display: inline-block;
+		transform: scale(.7,.7);
+		margin-right: -35px;
+	}
+	#header-search-input {
+		margin-right: -60px;
+	}
+}
+
+@media all and (max-width: 480px) and (min-width: 320px) {
+	#header-search-input {
+		display: none;
+	}
+}
+
+@media all and (max-width: 319px) {
+	#logo {
+		display: inline-block;
+		transform: scale(.6,.6);
+		margin-right: -45px;
+	}
+}
+
+
+
