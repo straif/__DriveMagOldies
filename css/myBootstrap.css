@@ -432,6 +432,11 @@ h1, h2, h4, h5, h6 {
 	/*transform: translateX(170px); ---> or, better, make well responsive ! */
 }/* and the well content gets col-6-sm and the like ! */
 
+.news div.well .inlnWell * {
+    text-align: center;
+    margin-top: 40px;
+}
+
 hr {
 	border-top: 1px solid #8c8b8b;
 	text-align: center;
@@ -449,6 +454,18 @@ hr:after {
 	-webkit-transform: rotate(60deg);
 	-moz-transform: rotate(60deg);
 	transform: rotate(60deg);
+}
+
+/* allnews --- FLEX */
+div.flex-container {
+    display: flex;
+}
+
+div.flex-container a {
+    flex-grow: 1;
+}
+div.flex-container div{
+    flex-grow: 2;
 }
 
 @media all and (max-width: 2048px) {
