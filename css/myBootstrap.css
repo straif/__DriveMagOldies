@@ -516,15 +516,62 @@ div.flex-container div {
 	margin-right: auto;
 }
 /*
-.allnewsH6 {
-	margin-top: 20px;
-	position: absolute;
-	left: 50%;
-	margin-right: -50%;
-	transform: translateX(-50%);
-	width: 85%;
+ .allnewsH6 {
+ margin-top: 20px;
+ position: absolute;
+ left: 50%;
+ margin-right: -50%;
+ transform: translateX(-50%);
+ width: 85%;
+ }
+ */
+
+/* ------------------ most expensive & oldest sold -------------------------------------*/
+
+table, thead {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	width: 100%;
 }
+
+th {
+	height: 50px;
+	text-align: center;
+	color: #e0eeee;
+	background-color: #901f10;
+}
+
+table td, table th {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+table td:first-child {
+	border-left: none;
+}
+
+table td:last-child {
+	border-right: none;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+td {
+	height: 50px;
+	vertical-align: middle;
+	color: #8b8878;
+}
+/*
+tr:nth-child(even) {background-color: #f2f2f2}
 */
+tr:hover {background-color: #f5f5f5}
+
+
+
 /* ------------------ footer -------------------------------------*/
 #ftrcrmbs {
 	list-style-type: none;
