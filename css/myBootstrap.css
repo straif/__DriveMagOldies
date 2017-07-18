@@ -578,7 +578,7 @@ ul li span#specialSpan {
 	font-size: 35px;
 }
 
-ul li span {
+ul li span, p span {
 	font-weight: bolder;
 	color: #901f10;
 }
