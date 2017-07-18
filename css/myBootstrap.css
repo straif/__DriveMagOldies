@@ -570,7 +570,30 @@ tr:nth-child(even) {background-color: #f2f2f2}
 */
 tr:hover {background-color: #f5f5f5}
 
+.table {
+	overflow-x:auto;
+}
 
+ul li span#specialSpan {
+	font-size: 35px;
+}
+
+ul li span {
+	font-weight: bolder;
+	color: #901f10;
+}
+
+ul img.img-thumbnail {
+	width: 600px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul img.inl {
+	width: 450px;
+	display: inline-block;
+}
 
 /* ------------------ footer -------------------------------------*/
 #ftrcrmbs {
