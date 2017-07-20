@@ -628,3 +628,29 @@ ul img.inl {
 	text-align: center;
 }
 
+/* ------------------ main.html -------------------------------------*/
+
+ul#flex-container {
+	list-style-type: none;
+	margin: 0; padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+ul#flex-container li {
+	height: auto;
+	padding-top: 40px;
+	text-align: center;
+	flex-grow: 1;
+}
+
+ul#flex-container li:first-child {
+	height: auto;
+	width: 200px;
+	padding-top: 40px;
+	text-align: center;
+	flex-grow: 1;
+}
+
+
